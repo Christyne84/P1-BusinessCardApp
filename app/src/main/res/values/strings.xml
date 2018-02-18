@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Business Card App</string>
+    <string name="business_name">The world\'s first fully painted feature film!</string>
+    <string name="address">Al. Niepodleglosci 881G, \n81–861 Sopot, Poland</string>
+    <string name="background_photo">Photo</string>
+    <string name="website">lovingvincent.com</string>
+    <string name="the_paintings">The Paintings</string>
+    <string name="the_movie">The Movie</string>
+</resources>

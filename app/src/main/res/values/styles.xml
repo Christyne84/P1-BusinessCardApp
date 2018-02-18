@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="App.Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#0288D1</item>
+        <item name="colorPrimaryDark">#232F69</item>
+        <item name="colorAccent">#2E3D49</item>
+        <item name="android:colorBackground">@color/White</item>
+        <item name="android:fontFamily">@font/roboto_light</item>
+    </style>
+
+    <style name="BackgroundImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_gravity">top|center_horizontal</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:alpha">0.8</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <style name="Menu">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lineSpacingExtra">@dimen/line_spacing_8</item>
+        <item name="android:paddingBottom">@dimen/margin_6</item>
+        <item name="android:paddingTop">@dimen/margin_6</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">@dimen/text_size_20</item>
+    </style>
+
+    <style name="ImageMenu">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="BusinessDetails">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">@dimen/activity_vertical_margin</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">@dimen/margin_10</item>
+        <item name="android:paddingTop">@dimen/margin_10</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+</resources>
+
